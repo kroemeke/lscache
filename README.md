@@ -2,7 +2,7 @@
 Apache mod_cache file inspection tool
 
 Example session may look like this :
-
+```shell
 dft:~# lscache --help
 Usage: lscache [options] arg
 
@@ -69,4 +69,4 @@ dft:~# lscache -s -d -e  -S '.*Gecko/20100101.*'
 [i] http://kroemeke.eu:80/links.html?  200    2012-02-22 21:10:33    2012-02-22 21:15:33   
 [?] Found 7 headers, 0 skipped.
 dft:~# 
-
+```
